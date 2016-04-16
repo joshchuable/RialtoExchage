@@ -13,7 +13,7 @@ BOT_NAME = 'rialto'
 
 SPIDER_MODULES = ['rialto.spiders']
 NEWSPIDER_MODULE = 'rialto.spiders'
-
+DOWNLOAD_HANDLERS = {'s3': None,}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'rialto (+http://www.yourdomain.com)'
